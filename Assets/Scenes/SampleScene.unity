@@ -1519,7 +1519,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.49092203, g: 0.50545865, b: 0.5283019, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1536,7 +1536,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 5.860917
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1560,7 +1560,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0.76, y: 0.18, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1578,7 +1578,7 @@ GameObject:
   - component: {fileID: 676366127}
   m_Layer: 1
   m_Name: Grid
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1626,6 +1626,7 @@ GameObject:
   - component: {fileID: 911414785}
   - component: {fileID: 911414784}
   - component: {fileID: 911414783}
+  - component: {fileID: 911414786}
   m_Layer: 0
   m_Name: Anorak
   m_TagString: Untagged
@@ -1712,6 +1713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vel: 2
   rb: {fileID: 911414784}
+  animator: {fileID: 911414786}
 --- !u!50 &911414784
 Rigidbody2D:
   serializedVersion: 4
@@ -1771,6 +1773,25 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!95 &911414786
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911414780}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 91ee7bc21c5d4ff4284306742b0f53ac, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1028837970
 GameObject:
   m_ObjectHideFlags: 0
