@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class movimiento : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -30,4 +31,7 @@ public class movimiento : MonoBehaviour
     	rb.MovePosition(rb.position + mov * vel * Time.fixedDeltaTime);
 
     }
+
+      
+
 }
