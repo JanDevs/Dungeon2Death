@@ -10,8 +10,11 @@ public class compObjeto : MonoBehaviour
     // Start is called before the first frame update
     private void OnCollisionEnter2D(Collision2D other){	    
        print("Cofre");
-      	if(this.name == "Cofre" || this.name == "Cofre2"){
+      	if(this.name == "Cofre"){
        		spriteRenderer.sprite = nimagen;
+       	}else if(this.name == "Cofre2"){
+       		spriteRenderer.sprite = nimagen;
+       		Destroy(GameObject.Find("Cuadro"));
        	}
        //SceneManager.LoadScene("otro"); 
        
