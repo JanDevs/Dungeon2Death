@@ -18,8 +18,7 @@ public class enemigoComp : MonoBehaviour
        		Destroy(this.gameObject);
           	SceneManager.LoadScene("Combate", LoadSceneMode.Additive);
        	}else if(this.name == "SlimeMuerte"){
-          Destroy(this.gameObject);
-          SceneManager.LoadScene("Combate2", LoadSceneMode.Additive);
+          SceneManager.LoadScene("Combate2");
         }
        //SceneManager.LoadScene("otro"); 
        

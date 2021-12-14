@@ -60,11 +60,19 @@ public class CombatManager : MonoBehaviour
                     foreach (var fgtr in this.fighters)
                     {
                         if(fgtr.isAlive==false){
-                            this.isCombatActive=false;
-                            LogPanel.Write("¡Victoria!");
-                            yield return new WaitForSeconds(2);
+                            if(fgtr.idName == "Anorak"){
+                                this.isCombatActive=false;
+                                LogPanel.Write("¡Muerto!");
+                                yield return new WaitForSeconds(2);
+                                SceneManager.LoadScene("Pantalla de Muerte");    
+                            }else{
+                                this.isCombatActive=false;
+                                LogPanel.Write("¡Victoria!");
+                                yield return new WaitForSeconds(2);
                             
-                            SceneManager.UnloadSceneAsync("Combate");
+                                SceneManager.UnloadSceneAsync("Combate");
+                            }
+                            
 
                         }else{
                             this.combatStatus=CombatStatus.NEXT_TURN;
