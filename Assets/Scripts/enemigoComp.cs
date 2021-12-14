@@ -13,16 +13,13 @@ public class enemigoComp : MonoBehaviour
        	print("Asndasd");
        	if(this.name == "Slime" ){
        		Destroy(this.gameObject);
-          
-          SceneManager.LoadScene("Combate", LoadSceneMode.Additive);
+          	SceneManager.LoadScene("Combate", LoadSceneMode.Additive);
        	}else if(this.name == "Slime2"){
        		Destroy(this.gameObject);
-          cam1.enabled = false;
-          SceneManager.LoadScene("Combate", LoadSceneMode.Additive);
+          	SceneManager.LoadScene("Combate", LoadSceneMode.Additive);
        	}else if(this.name == "SlimeMuerte"){
           Destroy(this.gameObject);
-          cam1.enabled = false;
-          SceneManager.LoadScene("Combate", LoadSceneMode.Additive);
+          SceneManager.LoadScene("Combate2", LoadSceneMode.Additive);
         }
        //SceneManager.LoadScene("otro"); 
        

@@ -361,7 +361,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 21bfadaf02272a14ca4830db12f9587a, type: 3}
+    m_Font: {fileID: 12800000, guid: 60096f0c0720b0d468f80e7eca6f2256, type: 3}
     m_FontSize: 20
     m_FontStyle: 1
     m_BestFit: 0
@@ -377,7 +377,7 @@ MonoBehaviour:
 
     2
 
-    Dead'
+    Death'
 --- !u!222 &676727823
 CanvasRenderer:
   m_ObjectHideFlags: 0
