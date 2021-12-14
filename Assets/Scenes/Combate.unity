@@ -1395,8 +1395,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.15, y: 3.61}
-  m_SizeDelta: {x: 668.86, y: 72.77}
+  m_AnchoredPosition: {x: -0.000040054, y: 0.00018883}
+  m_SizeDelta: {x: 757.42, y: 108.93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1157395789
 MonoBehaviour:
@@ -1493,7 +1493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1637,8 +1637,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.1900024, y: -94.77002}
-  m_SizeDelta: {x: -42.58, y: -213.18}
+  m_AnchoredPosition: {x: -6.3746033, y: -86.4747}
+  m_SizeDelta: {x: -32.2109, y: -196.5894}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1492959932
 MonoBehaviour:
@@ -1742,7 +1742,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 17.996426
+  field of view: 31.515463
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -2398,8 +2398,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000019073, y: 0}
-  m_SizeDelta: {x: 855, y: 322}
+  m_AnchoredPosition: {x: 41.863575, y: 59.583786}
+  m_SizeDelta: {x: 1595.0306, y: 806.8716}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1927472374 stripped
 GameObject:
