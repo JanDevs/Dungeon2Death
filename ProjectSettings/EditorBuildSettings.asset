@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Combate.unity
+    guid: 96b5e65912853434b9f8749cdcc1764a
+  - enabled: 1
+    path: Assets/Scenes/Combate2.unity
+    guid: 999ee86f88935c8488d532d3ea91defb
+  - enabled: 1
+    path: Assets/Scenes/Pantalla de Muerte.unity
+    guid: a676621015120e24e823117d863bcc9a
+  - enabled: 1
+    path: Assets/Scenes/Pantalla de Victoria.unity
+    guid: 1fd7fd73745936049bc4f3085b262e55
   m_configObjects: {}
